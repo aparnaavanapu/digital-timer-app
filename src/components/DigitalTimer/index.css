@@ -1,0 +1,110 @@
+.bg-container{
+    background-color:#cffcf1;
+    background-size:cover;
+    min-height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+   
+}
+
+.card-container{
+    display:flex;
+    padding:20px;
+    width:80%;
+    justify-content:space-around;
+    
+    
+    
+}
+
+
+.timer-container-1{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    background-size:cover;
+}
+.heading{
+    color:#0f172a;
+    font-family:"Roboto";
+    font-size:32px;
+    margin-bottom:20px;
+}
+.timer-text{
+    color: #00d9f5;
+    font-family:"Roboto";
+    font-size:36px;
+    font-weight:bold;
+}
+.pause-play-reset-btn{
+    background:none;
+    border:none;
+}
+.pause-paly-reset-text{
+    color:#0f172a;
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:600;
+
+}
+.play-pause-reset-icon{
+    width:30px;
+}
+.buttons-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:20%;
+    margin:10px;
+}
+.icon-text-container{
+    display:flex;
+    align-items:center;
+    width:50%;
+    margin:10px;
+}
+.pause-reset-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    display:flex;
+    margin-bottom:20px;
+}
+.timer-limit-container{
+    display:flex;
+}
+.timer-limit{
+    background-color:#2ed9d6;
+    border:none;
+    width:70px;
+    height:30px;
+    text-align:center;
+    color:#0f172a;
+    font-weight:700;
+    font-family:"Roboto";
+    padding-top:5px;
+    font-size:18px;
+    border-radius:6px;
+}
+.inc-dec{
+    color:#0f172a;
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:600;
+    background:none;
+    border:none;
+    
+}
+.limit-text{
+    color:#0f172a;
+    font-family:"Roboto";
+    font-size:14px;
+    margin:0px;
+    
+    
+}
+.set-timer-limit-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
