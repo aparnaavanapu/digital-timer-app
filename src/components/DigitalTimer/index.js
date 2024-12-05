@@ -54,7 +54,9 @@ class DigitalTimer extends Component{
         this.setState(prevState=>{
             const {timerLimit}=prevState
             return {timerLimit:timerLimit+1,
-                timerMin:timerLimit}
+                timerMin:timerLimit+1,
+                timerSec:0
+            }
             
     })
 
